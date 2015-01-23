@@ -1,0 +1,5 @@
+name = "Victorluk"
+SID = "ZHONG42sheng"
+email = "victorluk@berkeley.edu"
+github_name = "Victorluk"
+status = "enrolled"
