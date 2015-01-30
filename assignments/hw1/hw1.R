@@ -40,7 +40,7 @@
 # Create the variable
 # << y >> : a vector of length 100 which has the even numbers from 2 to 200.
 # For clarity put your code here, directly below the 
-<<<<<<< HEAD
+
 y<-seq(2,200,by=2)
 
 # Create the variable
@@ -60,7 +60,7 @@ sd.m<-sd(m)
 # Create the variable
 # << max.m >> : a scalar, the maximum of the numbers in << m >>
 max.m<-max(m)
-=======
+
 
 
 # Create the variable
@@ -79,7 +79,6 @@ set.seed(42)
 # Create the variable
 # << max.m >> : a scalar, the maximum of the numbers in << m >>
 
->>>>>>> 8447bb7b090e62f9c997dfe32b4814535a54c1d1
 
 ##################################################################################
 ### Second part, data frames
@@ -95,53 +94,37 @@ set.seed(42)
 # Load family.rda that is in your hw1 folder, the variable is called family:
 load("family.rda")
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 8447bb7b090e62f9c997dfe32b4814535a54c1d1
 ### Check what data type the variable is with : class(family)
 ### now take a look at the data frame by typing family in the console.
 
 # Create a new data frame 
 # << family.men >> : a data frame that is a subset of family, with only the men
-<<<<<<< HEAD
+
 family.men<-subset(family,gender=="m")
 
 # Create a new data frame 
 # << family.young >> : a data frame, subset of family, with only people *under* 40
 family.young<-subset(family,age<40,)
-=======
 
 
 # Create a new data frame 
 # << family.young >> : a data frame, subset of family, with only people *under* 40
->>>>>>> 8447bb7b090e62f9c997dfe32b4814535a54c1d1
 
 
 # Create a new data frame 
 # << family.30y68i >> : a data frame, subset of family, with only people *over* 30, *shorter* than 68 in
-<<<<<<< HEAD
 family.30y68i<-subset(family, age>30&height<68)
-=======
->>>>>>> 8447bb7b090e62f9c997dfe32b4814535a54c1d1
 
 
 # Formula for BMI : BMI = (weight in lbs) / (height in in)^2 * 703
 # Note: the dataframe has weight in lbs and height in in as required.
 # Create a new variable 
 # << bmi >> : a vector with the BMI of each family member 
-<<<<<<< HEAD
 bmi<-c(family$weight/family$height^2*703)
 
 # Create a new data frame
 # << family2 >> : family with an added column of BMI, with column name bmi
 family2<-cbind(family,bmi)
-=======
-
-
-# Create a new data frame
-# << family2 >> : family with an added column of BMI, with column name bmi
->>>>>>> 8447bb7b090e62f9c997dfe32b4814535a54c1d1
 
 
 
