@@ -1,0 +1,23 @@
+{
+    "login": "Victorluk", 
+    "url": "git@github.com:Victorluk/stat133.git", 
+    "name": "Victorluk", 
+    "email": "victorluk@berkeley.edu", 
+    "github_name": "Victorluk", 
+    "status": "enrolled", 
+    "grades": {
+        "hw1": {
+            "note": "", 
+            "hash": "33c0df8d4493ca7e498f7914bc90dede6bda1543", 
+            "earned": 20, 
+            "possible": 20, 
+            "penalty": 0, 
+            "parts": {
+                "hw1": {
+                    "possible": 20, 
+                    "earned": 20
+                }
+            }
+        }
+    }
+}
