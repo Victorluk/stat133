@@ -4,7 +4,7 @@
     "name": "Victorluk", 
     "email": "victorluk@berkeley.edu", 
     "github_name": "Victorluk", 
-    "status": "enrolled", 
+    "status": "unenrolled", 
     "grades": {
         "hw1": {
             "note": "", 
@@ -16,6 +16,19 @@
                 "hw1": {
                     "possible": 20, 
                     "earned": 20
+                }
+            }
+        }, 
+        "hw4": {
+            "note": "", 
+            "hash": "1defd6f71edda523367f079772604a218bf5b848", 
+            "earned": 0, 
+            "possible": 20, 
+            "penalty": 0, 
+            "parts": {
+                "hw4": {
+                    "possible": 20, 
+                    "earned": 0
                 }
             }
         }
